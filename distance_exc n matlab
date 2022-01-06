@@ -11,5 +11,4 @@ Degree_disp
 
 # in Matalb 
 
-Kilometers:
-=ACOS(COS(deg2rad(90-Lat1)) * COS(deg2rad(90-Lat2)) + SIN(deg2rad(90-Lat1)) * SIN(deg2rad(90-Lat2)) * COS(deg2rad(Long1-Long2))) * 6371
+Kilometers:=acos(cos(deg2rad(90-lat1)) * cos(deg2rad(90-lat2))+ sin(deg2rad(90-lat1)) * sin(deg2rad(90-lat2)) * cos(deg2rad(long1-long2))) * 6371

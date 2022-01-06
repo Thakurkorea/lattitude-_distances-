@@ -6,3 +6,10 @@ Kilometers:
 
 Degree_disp
 =DEGREES(ATAN2(COS(RADIANS(latA))*SIN(RADIANS(latB))-SIN(RADIANS(latA))*COS(RADIANS(latB))*COS(RADIANS(lonB-lonA)),SIN(RADIANS(lonB-lonA))*COS(RADIANS(latB))))
+
+
+
+# in Matalb 
+
+Kilometers:
+=ACOS(COS(deg2rad(90-Lat1)) * COS(deg2rad(90-Lat2)) + SIN(deg2rad(90-Lat1)) * SIN(deg2rad(90-Lat2)) * COS(deg2rad(Long1-Long2))) * 6371
